@@ -1,4 +1,4 @@
-const allowedOrigin = "https://portflio-two.vercel.app/";
+const allowedOrigin = "https://portflio-two.vercel.app";
 
 const verifyOrigin = (req, res, next) => {
   const origin = req.get("Origin") || req.get("Referer");
